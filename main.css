@@ -1,37 +1,51 @@
-body{
+body {
     background-color: #F7F8F9;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-main{
+main {
     display: inline-block;
     width: 800px;
     margin-top: 10px;
 }
 
-h1{
+h1 {
     font-size: 100px;
     color: #00518D;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
-       
 }
 
-h2{
+h2 {
     display: inline-block;
-    color: #6D6E6E; 
+    color: #6D6E6E;
     font-size: 20px;
 }
-h3{
+
+h3 {
     display: inline-block;
 }
 
-h4{
+h4 {
     display: inline-block;
-    color: #6D6E6E; 
+    color: #6D6E6E;
     font-size: 20px;
 }
-h5{
+
+nav {
     display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+a {
+    color: #006EF6;
+    text-decoration: none;
+}
+
+nav:last-of-type {
+    width: 50px;
 }
